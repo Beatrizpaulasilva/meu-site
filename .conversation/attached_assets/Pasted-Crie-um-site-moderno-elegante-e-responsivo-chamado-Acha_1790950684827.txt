@@ -1,0 +1,126 @@
+Crie um site moderno, elegante e responsivo chamado "Achadinhos da Bia".
+
+OBJETIVO:
+Criar uma vitrine de produtos afiliados do Mercado Livre, com aparência profissional, confiável e agradável para celular e computador.
+
+IDENTIDADE:
+Nome: Achadinhos da Bia
+Slogan: "Achadinhos, ofertas e produtos que facilitam o seu dia a dia."
+Estilo: feminino, moderno, clean e acolhedor.
+Use tons suaves de rosa, branco e detalhes neutros.
+Não deixar o site infantil nem exageradamente rosa.
+
+ESTRUTURA:
+
+1. CABEÇALHO
+- Logo/nome "Achadinhos da Bia"
+- Menu: Início | Cozinha | Casa | Quarto | Ofertas
+- Botão de menu responsivo no celular
+
+2. HERO
+Título:
+"Os achadinhos que você estava procurando ✨"
+
+Subtítulo:
+"Produtos selecionados para deixar sua casa mais bonita, prática e organizada."
+
+Botão:
+"Ver achadinhos"
+
+3. CATEGORIAS
+Criar cards para:
+- Cozinha
+- Casa
+- Quarto
+- Decoração
+
+4. PRODUTOS
+Criar cards modernos para os seguintes produtos:
+
+PRODUTO 01
+Nome: Conjunto de panelas antiaderente 10 peças Coffee Cappuccino Imperial
+Preço: R$ 219,98
+Desconto: 15% OFF
+Categoria: Cozinha
+
+PRODUTO 02
+Nome: Kit com 12 Utensílios de Cozinha Silicone Cabo Madeira
+Preço: R$ 39,99
+Desconto: 33% OFF
+Categoria: Cozinha
+Cores: cinza, preto, rosa, rosa-pink e vermelho
+
+PRODUTO 03
+Nome: Faqueiro Tramontina Búzios em Aço Inox 24 Peças
+Preço: R$ 69,75
+Desconto: 36% OFF
+Categoria: Cozinha
+
+PRODUTO 04
+Nome: Kit 10 Panos de Prato Liso Nova Era 100% Algodão
+Preço: R$ 25,74
+Desconto: 14% OFF
+Categoria: Cozinha
+
+PRODUTO 05
+Nome: Espelho de Chão Corpo Inteiro com Moldura e Suporte Dourado
+Preço: R$ 161,00
+Categoria: Decoração
+
+PRODUTO 06
+Nome: Jogo de Lençol Casal 3 Peças 400 Fios com Elástico
+Preço: a partir de R$ 29,08
+Desconto: até 43% OFF
+Categoria: Quarto
+Variações:
+Azul-marinho
+Bege floral
+Cinza flora
+Vermelho floral
+
+PRODUTO 07
+Nome: Cobertor Manta Casal Aveludada Canelada Super Macia
+Preço: R$ 32,95
+Desconto: 56% OFF
+Categoria: Quarto
+Cores:
+Azul-celeste
+Azul-petróleo
+Bege
+Cinza-escuro
+Preto
+Rosa-pálido
+
+5. BOTÕES
+Todos os produtos devem ter um botão:
+"🛒 Ver produto"
+
+O botão deve abrir o respectivo link de afiliado do Mercado Livre em uma nova aba.
+
+6. DESTAQUES
+Criar uma seção:
+"🔥 Ofertas em destaque"
+
+Mostrar os produtos com maior desconto.
+
+7. RODAPÉ
+"Achadinhos da Bia"
+"Produtos selecionados do Mercado Livre."
+"Os preços e condições podem sofrer alterações conforme o Mercado Livre."
+
+Adicionar aviso:
+"Este site participa de programa de afiliados. Podemos receber comissão por compras realizadas através dos nossos links."
+
+8. REQUISITOS
+- Responsivo para celular, tablet e computador
+- Carregamento rápido
+- Cards bonitos e profissionais
+- Busca por produtos
+- Filtro por categoria
+- Destaque visual para descontos
+- Botões com efeito hover
+- Navegação suave
+- SEO básico
+- Não inventar avaliações, número de vendas ou informações que não foram fornecidas
+- Não inventar preços diferentes dos informados
+- Preparar a estrutura para adicionar novos produtos facilmente no futuro
