@@ -1,0 +1,5 @@
+name = "meu-site"
+compatibility_date = "2026-10-02"
+
+[assets]
+directory = "./artifacts/achadinhos-da-bia/dist/public"
