@@ -127,7 +127,7 @@ function ProductCard({ product, featured = false }: { product: Product; featured
       <div className="product-image-wrap">
         {product.discount && <span className="discount-badge"><BadgePercent size={14} /> {product.discount}</span>}
         <img
-          className="product-image"
+          className={`product-image${product.id === 'manta' ? ' product-image--manta' : ''}`}
           src={selectedImage}
           alt={product.name}
           width="800"

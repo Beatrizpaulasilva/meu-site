@@ -479,6 +479,7 @@ button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid 
 .product-card:hover { transform: translateY(-4px); box-shadow: 0 15px 32px #60454b12; }
 .product-image-wrap { height: 248px; position: relative; display: grid; place-items: center; overflow: hidden; background: #f5f0ea; }
 .product-image { width: 100%; height: 100%; object-fit: contain; object-position: center; mix-blend-mode: multiply; transition: transform .4s; }
+.product-image--manta { position: relative; top: -20px; }
 .product-card:hover .product-image { transform: scale(1.025); }
 .discount-badge { position: absolute; z-index: 2; left: 13px; top: 13px; display: flex; align-items: center; gap: 5px; padding: 8px 10px; background: #a95773; color: #fff; font-size: 11px; font-weight: 700; letter-spacing: .02em; }
 .product-category { position: absolute; right: 12px; bottom: 12px; padding: 5px 8px; background: #fffdf2df; color: #786b67; font-size: 8px; letter-spacing: .04em; }
@@ -584,6 +585,7 @@ button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid 
   .product-grid { grid-template-columns: 1fr; gap: 13px; }
   .product-card { display: grid; grid-template-columns: 42% 58%; min-height: 190px; }
   .product-image-wrap { height: 100%; min-height: 190px; }
+  .product-image--manta { top: -12px; }
   .product-content { padding: 13px 12px; }
   .product-content h3 { min-height: auto; font-size: 14px; }
   .product-bottom { align-items: flex-start; flex-direction: column; gap: 9px; padding-top: 11px; }
