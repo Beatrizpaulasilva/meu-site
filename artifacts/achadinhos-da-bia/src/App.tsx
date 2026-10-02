@@ -28,6 +28,7 @@ type Product = {
   name: string;
   price: string;
   discount?: string;
+  installment?: string;
   category: string;
   image: string;
   url: string;
@@ -41,6 +42,7 @@ const products: Product[] = [
     name: 'Conjunto de panelas antiaderente 10 peças Coffee Cappuccino Imperial',
     price: 'R$ 219,98',
     discount: '15% OFF',
+    installment: '6x R$ 36,66',
     category: 'Cozinha',
     image: '/product-images/panelas.webp',
     url: 'https://meli.la/1g6hx5y',
@@ -57,7 +59,7 @@ const products: Product[] = [
   },
   {
     id: 'faqueiro',
-    name: 'Faqueiro Tramontina Búzios em Aço Inox 24 Peças',
+    name: 'Faqueiro Tramontina Búzios em Aço Inox com Detalhe 24 Peças',
     price: 'R$ 69,75',
     discount: '36% OFF',
     category: 'Cozinha',
@@ -66,7 +68,7 @@ const products: Product[] = [
   },
   {
     id: 'panos',
-    name: 'Kit 10 Panos de Prato Liso Nova Era 100% Algodão',
+    name: 'Kit 10 Panos de Prato Liso Nova Era Resistente 100% Algodão',
     price: 'R$ 25,74',
     discount: '14% OFF',
     category: 'Cozinha',
@@ -77,15 +79,16 @@ const products: Product[] = [
     id: 'espelho',
     name: 'Espelho de Chão Corpo Inteiro com Moldura e Suporte Dourado',
     price: 'R$ 161,00',
+    installment: '12x R$ 15,91',
     category: 'Decoração',
     image: '/product-images/espelho.webp',
     url: 'https://meli.la/2EogWh9',
   },
   {
     id: 'lencol',
-    name: 'Jogo de Lençol Casal 3 Peças 400 Fios com Elástico',
-    price: 'a partir de R$ 29,08',
-    discount: 'até 43% OFF',
+    name: 'Jogo de Lençol Casal Padrão 3 Pçs 400 Fios com Elástico',
+    price: 'A partir de R$ 29,08',
+    discount: 'Até 43% OFF',
     category: 'Quarto',
     image: '/product-images/lencol-bege.jpg',
     url: 'https://meli.la/2KHy9Bn',
@@ -98,7 +101,7 @@ const products: Product[] = [
   },
   {
     id: 'manta',
-    name: 'Cobertor Manta Casal Aveludada Canelada Super Macia',
+    name: 'Cobertor Manta Casal Aveludada Canelada Super Macia Luxo',
     price: 'R$ 32,95',
     discount: '56% OFF',
     category: 'Quarto',
@@ -129,7 +132,7 @@ function ProductCard({ product, featured = false }: { product: Product; featured
           alt={product.name}
           width="800"
           height="800"
-          loading="lazy"
+          loading="eager"
         />
         <span className="product-category">{product.category}</span>
       </div>
@@ -159,7 +162,10 @@ function ProductCard({ product, featured = false }: { product: Product; featured
           <p className="color-options"><span>Cores:</span> {product.colors.join(', ')}</p>
         )}
         <div className="product-bottom">
-          <p className="product-price" data-testid={`text-price-${product.id}`}>{product.price}</p>
+          <div className="product-pricing">
+            <p className="product-price" data-testid={`text-price-${product.id}`}>{product.price}</p>
+            {product.installment && <p className="product-installment">{product.installment}</p>}
+          </div>
           <a
             className="product-cta"
             href={product.url}
@@ -289,18 +295,23 @@ function Home() {
           <div className="offer-inner">
             <div className="offer-intro">
               <p className="eyebrow">BONS ACHADOS, MELHORES PREÇOS</p>
-              <h2>Um carinho no lar.<br /><em>E no bolso também.</em></h2>
+              <h2>🔥 Ofertas em destaque</h2>
               <p>Ofertas em destaque para aproveitar enquanto estão disponíveis.</p>
               <a href="#catalogo" className="text-link" onClick={() => selectCategory('Todas')}>Ver todos os achadinhos <ArrowRight size={16} /></a>
             </div>
             <div className="offer-picks">
-              {['manta', 'lencol', 'faqueiro'].map((id, index) => {
+              {['manta', 'lencol', 'faqueiro', 'utensilios', 'panelas'].map((id, index) => {
                 const product = products.find((item) => item.id === id)!;
                 return (
                   <div className={`offer-pick offer-pick-${index + 1}`} key={id}>
                     <span className="offer-rank">0{index + 1}</span>
-                    <img src={product.image} alt="" width="400" height="400" loading="lazy" />
-                    <div><small>{product.discount}</small><strong>{product.name}</strong><span>{product.price}</span></div>
+                    <img src={product.image} alt={product.name} width="400" height="400" loading="eager" />
+                    <div>
+                      <small>{product.discount}</small>
+                      <strong>{product.name}</strong>
+                      <span className="offer-price">{product.price}</span>
+                      {product.installment && <span className="offer-installment">{product.installment}</span>}
+                    </div>
                     <a href={product.url} target="_blank" rel="noopener noreferrer" aria-label={`🛒 Ver produto: ${product.name}`}>🛒 Ver produto</a>
                   </div>
                 );

@@ -1,0 +1,196 @@
+Faça os seguintes ajustes no site atual "Achadinhos da Bia", SEM refazer o site do zero e SEM alterar a identidade visual atual.
+
+1. SEÇÃO "OFERTAS EM DESTAQUE"
+
+Altere o título da seção de ofertas para:
+
+🔥 Ofertas em destaque
+
+Mantenha essa seção visualmente destacada, elegante e integrada ao restante do site.
+
+Nessa seção, destaque os produtos com descontos informados:
+
+- Panelas — 15% OFF
+- Kit de utensílios — 33% OFF
+- Faqueiro Tramontina — 36% OFF
+- Jogo de lençol — até 43% OFF
+- Cobertor — 56% OFF
+
+Não invente descontos diferentes dos valores fornecidos.
+
+2. CORRIGIR AS IMAGENS DOS PRODUTOS
+
+Alguns cards atualmente estão aparecendo com áreas vazias ou sem uma imagem adequada.
+
+Corrija principalmente:
+
+- PRODUTO 04 — Kit 10 Panos de Prato 100% Algodão
+- PRODUTO 05 — Espelho de Chão Corpo Inteiro com Moldura e Suporte Dourado
+
+Também verifique todos os outros produtos para garantir que nenhum card fique com espaço vazio.
+
+IMPORTANTE:
+- Cada card deve ter uma imagem preenchendo corretamente a área destinada à imagem.
+- A imagem deve manter proporção adequada.
+- Não deixar espaços grandes em branco.
+- Não distorcer as imagens.
+- Usar object-fit: cover ou uma solução visual equivalente.
+- Manter a mesma altura visual das imagens dos cards.
+- Caso uma imagem específica não esteja disponível, use uma imagem ilustrativa coerente com o produto, sem colocar texto ou produto diferente na imagem.
+- Não alterar o nome ou a descrição dos produtos.
+
+3. MELHORAR PREÇOS E DESCONTOS
+
+Melhore a apresentação dos preços para que sejam muito mais fáceis de visualizar principalmente no celular.
+
+Para cada produto:
+
+- Preço atual deve ter destaque visual.
+- Preço deve utilizar fonte maior e mais legível.
+- Usar "R$" corretamente.
+- Preço promocional deve ser visualmente mais destacado.
+- Desconto deve aparecer em uma etiqueta/badge bem visível.
+- O desconto não deve ficar pequeno ou escondido.
+- O preço e o desconto devem continuar legíveis em telas pequenas.
+- Evitar que preço e desconto fiquem espremidos na mesma linha em celulares.
+- Em telas pequenas, permitir que preço e desconto fiquem em linhas separadas quando necessário.
+
+Exemplo de estrutura:
+
+R$ 219,98
+[15% OFF]
+
+Para o produto 06:
+
+A partir de R$ 29,08
+[até 43% OFF]
+
+Para o produto 05:
+
+R$ 161,00
+12x R$ 15,91
+
+Não transformar parcelamento em desconto.
+
+4. CARDS DOS PRODUTOS
+
+Melhore os cards mantendo o design atual.
+
+Cada card deve ter:
+
+- Imagem
+- Badge de desconto
+- Categoria
+- Nome do produto
+- Preço atual em destaque
+- Informação de parcelamento quando fornecida
+- Botão "Ver produto"
+
+O botão deve permanecer bem visível no celular.
+
+5. BOTÕES E LINKS DE AFILIADO
+
+Mantenha os links de afiliado exatamente como estão.
+
+Confira se cada botão "Ver produto" corresponde ao produto correto:
+
+PRODUTO 01 — Panelas
+https://meli.la/1g6hx5y
+
+PRODUTO 02 — Utensílios
+https://meli.la/29iLn4D
+
+PRODUTO 03 — Faqueiro
+https://meli.la/2fGCEHS
+
+PRODUTO 04 — Panos de prato
+https://meli.la/163zG4M
+
+PRODUTO 05 — Espelho
+https://meli.la/2EogWh9
+
+PRODUTO 06 — Jogo de lençol
+https://meli.la/2KHy9Bn
+
+PRODUTO 07 — Cobertor
+https://meli.la/2NPtX7Z
+
+Cada botão deve abrir seu respectivo link em uma nova aba.
+
+Não misturar os links entre os produtos.
+
+6. PRODUTOS
+
+Manter exatamente estes dados:
+
+PRODUTO 01
+Conjunto de panelas antiaderente 10 peças Coffee Cappuccino Imperial
+R$ 219,98
+15% OFF
+6x R$ 36,66
+
+PRODUTO 02
+Kit com 12 Utensílios de Cozinha Silicone Cabo Madeira
+R$ 39,99
+33% OFF
+
+PRODUTO 03
+Faqueiro Tramontina Búzios em Aço Inox com Detalhe 24 Peças
+R$ 69,75
+36% OFF
+
+PRODUTO 04
+Kit 10 Panos de Prato Liso Nova Era Resistente 100% Algodão
+R$ 25,74
+14% OFF
+
+PRODUTO 05
+Espelho de Chão Corpo Inteiro com Moldura e Suporte Dourado
+R$ 161,00
+12x R$ 15,91
+
+PRODUTO 06
+Jogo de Lençol Casal Padrão 3 Pçs 400 Fios com Elástico
+A partir de R$ 29,08
+Até 43% OFF
+
+PRODUTO 07
+Cobertor Manta Casal Aveludada Canelada Super Macia Luxo
+R$ 32,95
+56% OFF
+
+7. RESPONSIVIDADE
+
+Faça uma revisão específica para celular.
+
+No celular:
+
+- Cards devem ocupar corretamente a largura disponível.
+- Imagens não podem ficar cortadas de forma estranha.
+- Preços devem ser grandes e fáceis de ler.
+- Descontos devem continuar visíveis.
+- Botões devem ser fáceis de tocar.
+- Não permitir textos sobrepostos.
+- Não permitir elementos saindo da tela.
+- Espaçamento confortável entre os elementos.
+
+8. MANTER O DESIGN
+
+IMPORTANTE:
+
+Não refazer o site do zero.
+
+Mantenha:
+- identidade "Achadinhos da Bia"
+- paleta atual
+- tipografia atual
+- estilo elegante
+- seções existentes
+- categorias
+- cabeçalho
+- rodapé
+- estrutura geral
+
+Apenas faça os ajustes solicitados acima e deixe o resultado mais profissional, organizado e fácil de usar.
+
+Antes de finalizar, revise visualmente a página inteira no desktop e no celular e corrija qualquer espaço vazio, imagem quebrada, preço ilegível ou botão desalinhado.
