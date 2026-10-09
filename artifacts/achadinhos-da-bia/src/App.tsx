@@ -176,6 +176,7 @@ const categories = [
   { title: 'Decoração', id: 'decoracao', note: 'Um toque só seu', icon: Sparkles, filter: 'Decoração' },
 ];
 
+
 function trackProductClick(product: Product, placement: string) {
   if (typeof window !== 'undefined' && typeof window.fbq === 'function') {
     window.fbq('trackCustom', 'CliqueProduto', {
@@ -185,7 +186,10 @@ function trackProductClick(product: Product, placement: string) {
     });
   }
 }
+
 function ProductCard({ product, featured = false }: { product: Product; featured?: boolean }) {
+
+ 
   const [selectedImage, setSelectedImage] = useState(product.image);
   const [selectedVariant, setSelectedVariant] = useState(product.variants?.[1]?.name ?? '');
 
