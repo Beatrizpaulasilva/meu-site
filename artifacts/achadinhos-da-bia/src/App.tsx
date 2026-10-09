@@ -22,6 +22,11 @@ import {
 import { Route, Switch, useLocation, Router as WouterRouter } from 'wouter';
 
 const queryClient = new QueryClient();
+declare global {
+interface Window {
+fbq?: (...args: any[]) => void;
+}
+}
 
 type Product = {
   id: string;
@@ -171,6 +176,15 @@ const categories = [
   { title: 'Decoração', id: 'decoracao', note: 'Um toque só seu', icon: Sparkles, filter: 'Decoração' },
 ];
 
+function trackProductClick(product: Product, placement: string) {
+  if (typeof window !== 'undefined' && typeof window.fbq === 'function') {
+    window.fbq('trackCustom', 'CliqueProduto', {
+      product_id: product.id,
+      product_name: product.name,
+      placement,
+    });
+  }
+}
 function ProductCard({ product, featured = false }: { product: Product; featured?: boolean }) {
   const [selectedImage, setSelectedImage] = useState(product.image);
   const [selectedVariant, setSelectedVariant] = useState(product.variants?.[1]?.name ?? '');
@@ -224,6 +238,7 @@ function ProductCard({ product, featured = false }: { product: Product; featured
             href={product.url}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => trackProductClick(product, 'catalogo')}
             data-testid={`link-product-${product.id}`}
           >
             🛒 Ver produto <ArrowRight size={15} aria-hidden="true" />
@@ -365,7 +380,7 @@ function Home() {
                       <span className="offer-price">{product.price}</span>
                       {product.installment && <span className="offer-installment">{product.installment}</span>}
                     </div>
-                    <a href={product.url} target="_blank" rel="noopener noreferrer" aria-label={`🛒 Ver produto: ${product.name}`}>🛒 Ver produto</a>
+                    <a href={product.url} target="_blank" rel="noopener noreferrer" onClick={() => trackProductClick(product, 'destaques')} aria-label={`🛒 Ver produto: ${product.name}`}>🛒 Ver produto</a>
                   </div>
                 );
               })}
