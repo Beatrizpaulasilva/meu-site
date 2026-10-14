@@ -340,8 +340,14 @@ function Home() {
           <div className="hero-art" aria-label="Seleção de produtos para casa">
             <div className="hero-art-orbit orbit-one" />
             <div className="hero-art-orbit orbit-two" />
-            <div className="hero-image-frame">
-              <img src="/product-images/panelas.webp" alt="Conjunto de panelas em tons cappuccino" width="800" height="800" fetchPriority="high" />
+            <div className="hero-image-frame">       
+<img
+  src="/product-images/tacas-diamond.jpg"
+  alt="Conjunto com 6 Taças Diamond de 340ml"
+  width="800"
+  height="800"
+  fetchPriority="high"
+/>
             </div>
             <div className="hero-note"><span className="hero-note-icon"><Sparkles size={17} /></span><span><strong>O detalhe certo</strong><small>muda o dia a dia</small></span></div>
             <span className="hero-index">01 <i /> CURADORIA DA BIA</span>
@@ -381,7 +387,7 @@ function Home() {
               <a href="#catalogo" className="text-link" onClick={() => selectCategory('Todas')}>Ver todos os achadinhos <ArrowRight size={16} /></a>
             </div>
             <div className="offer-picks">
-              {['manta', 'lencol', 'faqueiro', 'utensilios', 'panelas'].map((id, index) => {
+{['manta', 'lencol', 'faqueiro', 'utensilios', 'potes-plastico-10'].map((id, index) => {
                 const product = products.find((item) => item.id === id)!;
                 return (
                   <div className={`offer-pick offer-pick-${index + 1}`} key={id}>
