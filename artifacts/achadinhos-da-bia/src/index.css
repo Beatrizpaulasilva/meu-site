@@ -1177,3 +1177,295 @@ body,
   background: #A96F7D;
   color: #FFFFFF;
 }
+
+/* ======================================
+   ACHADINHOS DA BIA
+   NOVA IDENTIDADE ROSA PINK
+   ====================================== */
+
+:root {
+  --rosa-fundo: #FFF5F7;
+  --rosa-claro: #FDE6EA;
+  --rosa-medio: #FBC3CF;
+  --rosa-pink: #FF2D7A;
+  --rosa-forte: #E5316B;
+  --vinho: #7A2B3E;
+  --vinho-escuro: #4A1727;
+  --branco: #FFFFFF;
+}
+
+/* FUNDO GERAL */
+
+body,
+.site-shell {
+  background: var(--rosa-fundo);
+  color: var(--vinho-escuro);
+}
+
+/* FAIXA SUPERIOR */
+
+.announcement {
+  background: var(--vinho);
+  color: #FFFFFF;
+}
+
+/* CABEÇALHO */
+
+.site-header {
+  background: #FFF7F9;
+  border-bottom: 1px solid #FBC3CF;
+}
+
+.brand-copy strong {
+  color: var(--vinho-escuro);
+}
+
+.brand-copy small {
+  color: var(--vinho);
+}
+
+.brand-mark {
+  background: var(--rosa-pink);
+  color: #FFFFFF;
+}
+
+.desktop-nav a {
+  color: var(--vinho-escuro);
+}
+
+.desktop-nav a:hover,
+.desktop-nav .nav-offers {
+  color: var(--rosa-pink);
+}
+
+/* PESQUISA */
+
+.header-search {
+  background: #FDE6EA;
+  border: 1px solid #FBC3CF;
+  color: var(--vinho-escuro);
+  border-radius: 30px;
+}
+
+.header-search:hover {
+  background: #FBC3CF;
+  color: var(--vinho-escuro);
+}
+
+.search-box {
+  background: #FFFFFF;
+  border: 1px solid #FBC3CF;
+}
+
+.search-box input {
+  color: var(--vinho-escuro);
+}
+
+/* BOTÃO EXPLORAR */
+
+.header-discover {
+  background: var(--rosa-pink);
+  color: #FFFFFF;
+  border-radius: 30px;
+}
+
+.header-discover:hover {
+  background: var(--rosa-forte);
+  color: #FFFFFF;
+}
+
+/* CATEGORIAS */
+
+.category-section {
+  background: #FFF5F7;
+}
+
+.category-heading h2,
+.catalog-heading h2 {
+  color: var(--vinho-escuro);
+}
+
+.category-tile {
+  background: #FFFFFF;
+  border: 1px solid #FBC3CF;
+  border-radius: 18px;
+}
+
+.category-tile:hover,
+.category-tile.active {
+  background: #FDE6EA;
+  border-color: var(--rosa-pink);
+}
+
+.category-icon {
+  background: #FDE6EA;
+  color: var(--rosa-pink);
+}
+
+.category-tile-copy strong {
+  color: var(--vinho-escuro);
+}
+
+/* OFERTAS EM DESTAQUE */
+
+.offer-section {
+  background: #FDE6EA;
+}
+
+.offer-intro h2 {
+  color: var(--vinho-escuro);
+}
+
+.offer-intro p {
+  color: var(--vinho);
+}
+
+.offer-pick {
+  background: #FFFFFF;
+  border: 1px solid #FBC3CF;
+  box-shadow: 0 5px 16px rgba(122,43,62,0.08);
+}
+
+.offer-pick > img {
+  background: #FFF5F7;
+}
+
+.offer-pick strong {
+  color: var(--vinho-escuro);
+}
+
+.offer-price {
+  color: var(--rosa-pink);
+}
+
+.offer-pick > a {
+  background: var(--rosa-pink);
+  color: #FFFFFF;
+  border-radius: 30px;
+}
+
+.offer-pick > a:hover {
+  background: var(--rosa-forte);
+  color: #FFFFFF;
+}
+
+.text-link {
+  color: var(--rosa-forte);
+}
+
+/* CATÁLOGO */
+
+.catalog-section {
+  background: #FFF5F7;
+}
+
+.product-card {
+  background: #FFFFFF;
+  border: 1px solid #FBC3CF;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.product-card h3 {
+  color: var(--vinho-escuro);
+}
+
+.product-price {
+  color: var(--rosa-pink);
+  font-weight: 800;
+}
+
+.product-cta {
+  background: var(--rosa-pink);
+  color: #FFFFFF;
+  border-radius: 30px;
+}
+
+.product-cta:hover {
+  background: var(--rosa-forte);
+  color: #FFFFFF;
+}
+
+.discount-badge {
+  background: var(--rosa-pink);
+  color: #FFFFFF;
+}
+
+/* FILTROS */
+
+.filter-chip {
+  background: #FFFFFF;
+  border: 1px solid #FBC3CF;
+  color: var(--vinho-escuro);
+}
+
+.filter-chip.selected,
+.filter-chip:hover {
+  background: var(--rosa-pink);
+  border-color: var(--rosa-pink);
+  color: #FFFFFF;
+}
+
+/* SEÇÃO FINAL */
+
+.closing-note {
+  background: #FBC3CF;
+  color: var(--vinho-escuro);
+}
+
+.closing-note h2,
+.closing-note p,
+.closing-note a {
+  color: var(--vinho-escuro);
+}
+
+.closing-flower {
+  background: var(--rosa-pink);
+  color: #FFFFFF;
+}
+
+/* RODAPÉ LEGÍVEL */
+
+.site-footer {
+  background: #FDE6EA;
+  color: var(--vinho-escuro);
+}
+
+.site-footer .brand-copy strong,
+.site-footer .brand-copy small,
+.site-footer p,
+.site-footer small,
+.site-footer .footer-bottom span {
+  color: var(--vinho-escuro);
+}
+
+.site-footer .brand-mark {
+  background: var(--rosa-pink);
+  color: #FFFFFF;
+}
+
+.footer-disclosure {
+  border-top: 1px solid #DDA3B0;
+}
+
+.footer-disclosure p {
+  color: var(--vinho-escuro);
+  line-height: 1.7;
+}
+
+.site-footer .footer-socials a {
+  background: #FFFFFF;
+  border: 1px solid #FBC3CF;
+  color: var(--vinho-escuro);
+}
+
+.site-footer .footer-socials a:hover {
+  background: var(--rosa-pink);
+  color: #FFFFFF;
+}
+
+.site-footer .back-top {
+  background: var(--rosa-pink);
+  color: #FFFFFF;
+  border-radius: 50%;
+}
