@@ -1103,3 +1103,77 @@ body,
   background: #A96F7D;
   color: #FFFFFF;
 }
+
+/* RODAPÉ COM MELHOR LEITURA */
+
+.site-footer {
+  background: #EACBD1;
+  color: #49343A;
+}
+
+.site-footer .brand-copy strong {
+  color: #49343A;
+  font-weight: 800;
+}
+
+.site-footer .brand-copy small {
+  color: #71545C;
+}
+
+.site-footer .brand-mark {
+  background: #A96F7D;
+  color: #FFFFFF;
+}
+
+.site-footer p,
+.site-footer span,
+.site-footer small {
+  color: #49343A;
+}
+
+.footer-main > p {
+  color: #49343A;
+  font-size: 14px;
+}
+
+.footer-disclosure {
+  border-top: 1px solid #B77D89;
+}
+
+.footer-disclosure p {
+  color: #594348;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.footer-bottom,
+.footer-bottom span {
+  color: #594348;
+  font-size: 13px;
+}
+
+.site-footer .back-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  background: #A96F7D;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 50%;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.site-footer .footer-socials a {
+  background: #FFF9F6;
+  color: #49343A;
+  border: 1px solid #B77D89;
+  font-weight: 700;
+}
+
+.site-footer .footer-socials a:hover {
+  background: #A96F7D;
+  color: #FFFFFF;
+}
