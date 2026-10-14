@@ -42,14 +42,6 @@ type Product = {
 };
 const products: Product[] = [
   {
-    id: "panelas",
-    name: "Conjunto de panelas antiaderente 10 peças Coffee Cappuccino Imperial",
-   price: "R$ 189,98",
-    category: "Cozinha",
-    image: "/product-images/panelas.webp",
-    url: "https://meli.la/1g6hx5y",
-  },
-  {
     id: "utensilios",
     name: "Kit com 12 Utensílios de Cozinha Silicone Cabo Madeira",
     price: "R$ 39,99",
@@ -70,8 +62,8 @@ const products: Product[] = [
   {
     id: "panos",
     name: "Kit 10 Panos de Prato Liso Nova Era Resistente 100% Algodão",
-    price: "R$ 25,74",
-    discount: "14% OFF",
+    price: "R$ 28,50",
+    discount: "5% OFF",
     category: "Cozinha",
     image: "/product-images/panos-de-prato.webp",
     url: "https://meli.la/163zG4M",
@@ -128,9 +120,8 @@ price: "R$ 161,00",
 {
   id: "organizadores-geladeira",
   name: "Kit 3 Organizadores de Geladeira com Tampas",
-  price: "R$ 35,04 no Pix",
-  discount: "28% OFF",
-  installment: "R$ 38,00 nos outros meios de pagamento",
+  price: "R$ 39,00",
+  discount: "20% OFF",
   category: "Cozinha",
   image: "/product-images/organizadores-geladeira.jpg.jpeg",
   url: "https://meli.la/11dhaUA",
@@ -155,7 +146,7 @@ price: "R$ 161,00",
   {
     id: "tacas-diamond",
     name: "Kit com 6 Taças Diamond de 340ml",
-    price: "R$ 26,00",
+    price: "R$ 28,22",
     category: "Cozinha",
     image: "/product-images/tacas-diamond.jpg",
     url: "https://meli.la/2AqNNcx",
@@ -175,6 +166,16 @@ price: "R$ 161,00",
     category: "Casa",
     image: "/product-images/lampadas-vintage.jpg",
     url: "https://meli.la/1BBNuEJ",
+  },
+  {
+    id: "potes-plastico-10",
+    name: "Kit 10 Potes de Plástico com Trava 750ml",
+    price: "R$ 33,90",
+    discount: "43% OFF",
+    category: "Cozinha",
+    image: "/product-images/potes-plastico-10.webp",
+    url: "https://meli.la/1LStnhx",
+    colors: ["Transparente"],
   },
 ];
 const categories = [
