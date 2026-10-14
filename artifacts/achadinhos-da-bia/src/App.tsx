@@ -381,7 +381,7 @@ function Home() {
               <a href="#catalogo" className="text-link" onClick={() => selectCategory('Todas')}>Ver todos os achadinhos <ArrowRight size={16} /></a>
             </div>
             <div className="offer-picks">
-{['manta', 'lencol', 'faqueiro', 'utensilios', 'potes-plastico-10'].map((id, index) => {
+{['tacas-diamond', 'faqueiro', 'espelho', 'potes-hermeticos'].map((id, index) => {
                 const product = products.find((item) => item.id === id)!;
                 return (
                   <div className={`offer-pick offer-pick-${index + 1}`} key={id}>
