@@ -456,6 +456,24 @@ function Home() {
             <span className="brand-copy"><strong>Achadinhos da Bia</strong><small>casa, com carinho</small></span>
           </a>
           <p>Produtos selecionados do Mercado Livre.</p>
+          
+<div className="footer-socials">
+  <a
+    href="https://www.instagram.com/achadinhos_dabia07/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    📸 Instagram
+  </a>
+  <a
+    href="https://www.tiktok.com/@achadinhos_dabia"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    🎵 TikTok
+  </a>
+</div>
+
           <a className="back-top" href="#inicio" aria-label="Voltar ao início">↑</a>
         </div>
         <div className="footer-disclosure">
