@@ -328,8 +328,7 @@ function Home() {
         )}
       </header>
 
-      <main>
-       
+      <main>       
 <section className="hero-banner" id="inicio">
   <a
     href="#ofertas"
@@ -338,25 +337,11 @@ function Home() {
   >
     <img
       src="/product-images/banner-achadinhos.png"
-      alt="Achadinhos para o seu dia a dia. Produtos úteis e modernos para casa, cozinha e quarto."
+      alt="Achadinhos para o seu dia a dia."
       className="hero-banner-image"
     />
   </a>
 </section>
-    
-<img
-  src="/product-images/tacas-diamond.jpg"
-  alt="Conjunto com 6 Taças Diamond de 340ml"
-  width="800"
-  height="800"
-  fetchPriority="high"
-/>
-            </div>
-            <div className="hero-note"><span className="hero-note-icon"><Sparkles size={17} /></span><span><strong>O detalhe certo</strong><small>muda o dia a dia</small></span></div>
-            <span className="hero-index">01 <i /> CURADORIA DA BIA</span>
-          </div>
-          <a className="scroll-cue" href="#categorias">DESCUBRA A SELEÇÃO <ChevronDown size={14} /></a>
-        </section>
 
         <section className="category-section section-wrap" id="categorias">
           <div className="section-heading category-heading">
