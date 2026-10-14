@@ -830,3 +830,29 @@ body,
     height: 160px;
   }
 }
+
+/* REDES SOCIAIS NO RODAPÉ */
+
+.footer-socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.footer-socials a {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 18px;
+  background: #FFF9F6;
+  color: #594348;
+  border: 1px solid #DCA7B1;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer-socials a:hover {
+  background: #B77D89;
+  color: white;
+}
