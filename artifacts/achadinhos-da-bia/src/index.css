@@ -978,3 +978,128 @@ body,
   background: #B77D89;
   color: #FFFFFF;
 }
+
+/* AJUSTE FINAL - ACHADINHOS DA BIA */
+
+/* Ofertas em destaque */
+.offer-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 28px;
+}
+
+.offer-intro {
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+}
+
+.offer-picks {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+  width: 100%;
+}
+
+.offer-pick {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 18px;
+  background: #FFFFFF;
+  border: 1px solid #E8CDD3;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 5px 16px rgba(89, 67, 72, 0.08);
+}
+
+.offer-pick > img {
+  display: block;
+  width: 100%;
+  height: 185px;
+  object-fit: contain;
+  margin: 0 0 14px;
+  background: #FFF9F6;
+  border-radius: 12px;
+}
+
+.offer-pick > div {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 8px;
+  min-width: 0;
+}
+
+.offer-pick strong {
+  display: block;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #49343A;
+  overflow-wrap: break-word;
+}
+
+.offer-price {
+  display: block;
+  font-size: 20px;
+  font-weight: 800;
+  color: #A96777;
+}
+
+.offer-pick > a {
+  position: static;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 16px;
+  padding: 12px;
+  background: #B77D89;
+  color: #FFFFFF;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+/* Responsividade */
+@media (max-width: 950px) {
+  .offer-picks {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .offer-picks {
+    grid-template-columns: 1fr;
+  }
+
+  .offer-pick > img {
+    height: 210px;
+  }
+}
+
+/* Seção inferior mais escura */
+.closing-note {
+  background: #D4A6B0;
+  color: #49343A;
+}
+
+.closing-note h2,
+.closing-note p,
+.closing-note a {
+  color: #49343A;
+}
+
+.closing-note a {
+  font-weight: 700;
+}
+
+.closing-flower {
+  background: #A96F7D;
+  color: #FFFFFF;
+}
