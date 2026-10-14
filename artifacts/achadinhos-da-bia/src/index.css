@@ -640,3 +640,71 @@ button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid 
     height: auto;
   }
 }
+
+/* IDENTIDADE ROSA - ACHADINHOS DA BIA */
+
+:root {
+  --rosa-claro: #F8E6E9;
+  --rosa-medio: #DCA7B1;
+  --rosa-antigo: #B77D89;
+  --creme: #FFF9F6;
+  --marrom: #594348;
+}
+
+body,
+.site-shell {
+  background-color: var(--creme);
+  color: var(--marrom);
+}
+
+/* Cabeçalho */
+.announcement {
+  background: var(--rosa-antigo);
+  color: white;
+}
+
+.site-header {
+  background: var(--rosa-claro);
+}
+
+.brand-copy strong,
+.desktop-nav a {
+  color: var(--marrom);
+}
+
+/* Categorias */
+.category-section {
+  background: var(--creme);
+}
+
+.category-tile {
+  background: white;
+  border-color: var(--rosa-claro);
+}
+
+/* Ofertas */
+.offer-section {
+  background: var(--rosa-claro);
+}
+
+/* Catálogo */
+.catalog-section {
+  background: var(--creme);
+}
+
+.product-card {
+  background: white;
+  border-color: var(--rosa-claro);
+}
+
+/* Botões e links */
+.header-discover,
+.text-link {
+  color: var(--rosa-antigo);
+}
+
+/* Rodapé */
+.site-footer {
+  background: var(--rosa-claro);
+  color: var(--marrom);
+}
