@@ -329,18 +329,21 @@ function Home() {
       </header>
 
       <main>
-        <section className="hero" id="inicio">
-          <div className="hero-copy">
-            <p className="eyebrow"><span className="eyebrow-line" /> UMA CASA MAIS SUA</p>
-            <h1>Os achadinhos que você estava procurando <span>✨</span></h1>
-            <p className="hero-subtitle">Produtos selecionados para deixar sua casa mais bonita, prática e organizada.</p>
-            <a className="hero-button" href="#catalogo" onClick={() => selectCategory('Todas')}>Ver achadinhos <ArrowRight size={17} /></a>
-            <p className="hero-footnote"><Heart size={14} /> Escolhas feitas com cuidado, para a vida real.</p>
-          </div>
-          <div className="hero-art" aria-label="Seleção de produtos para casa">
-            <div className="hero-art-orbit orbit-one" />
-            <div className="hero-art-orbit orbit-two" />
-            <div className="hero-image-frame">       
+       
+<section className="hero-banner" id="inicio">
+  <a
+    href="#ofertas"
+    aria-label="Confira as ofertas do Achadinhos da Bia"
+    className="hero-banner-link"
+  >
+    <img
+      src="/product-images/banner-achadinhos.png"
+      alt="Achadinhos para o seu dia a dia. Produtos úteis e modernos para casa, cozinha e quarto."
+      className="hero-banner-image"
+    />
+  </a>
+</section>
+    
 <img
   src="/product-images/tacas-diamond.jpg"
   alt="Conjunto com 6 Taças Diamond de 340ml"
