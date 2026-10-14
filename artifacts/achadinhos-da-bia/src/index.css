@@ -708,3 +708,68 @@ body,
   background: var(--rosa-claro);
   color: var(--marrom);
 }
+
+/* BOTÕES E PESQUISA - ACHADINHOS DA BIA */
+
+/* Botão principal */
+.header-discover {
+  background: #B77D89;
+  color: #FFFFFF;
+  border-radius: 30px;
+  padding: 12px 22px;
+}
+
+.header-discover:hover {
+  background: #9F6572;
+  color: #FFFFFF;
+}
+
+/* Barra de pesquisa */
+.search-box {
+  background: #FFFFFF;
+  border: 1px solid #DCA7B1;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.search-box input {
+  background: transparent;
+  color: #594348;
+}
+
+.search-box input::placeholder {
+  color: #987C83;
+}
+
+/* Filtros de categorias */
+.filter-chip {
+  background: #FFF9F6;
+  border: 1px solid #DCA7B1;
+  color: #594348;
+  border-radius: 30px;
+}
+
+.filter-chip.selected,
+.filter-chip:hover {
+  background: #B77D89;
+  color: #FFFFFF;
+  border-color: #B77D89;
+}
+
+/* Botões dos produtos */
+.offer-pick a,
+.product-card a {
+  border-radius: 30px;
+}
+
+/* Destaques */
+.offer-pick {
+  background: #FFFFFF;
+  border: 1px solid #F0D5DB;
+  border-radius: 18px;
+}
+
+/* Rodapé */
+.footer-disclosure {
+  border-color: #DCA7B1;
+}
