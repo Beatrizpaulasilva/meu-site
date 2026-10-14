@@ -773,3 +773,60 @@ body,
 .footer-disclosure {
   border-color: #DCA7B1;
 }
+
+/* OFERTAS EM DESTAQUE - TEMA ROSA */
+
+.offer-picks {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.offer-pick {
+  background: #FFFFFF;
+  border: 1px solid #F0D5DB;
+  border-radius: 20px;
+  padding: 18px;
+  overflow: hidden;
+  box-shadow: 0 5px 18px rgba(89, 67, 72, 0.07);
+}
+
+.offer-pick img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  background: #FFF9F6;
+  border-radius: 14px;
+}
+
+.offer-price {
+  color: #A96777;
+  font-weight: 800;
+}
+
+.offer-pick a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #B77D89;
+  color: #FFFFFF;
+  padding: 11px 18px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.offer-pick a:hover {
+  background: #9F6572;
+  color: #FFFFFF;
+}
+
+/* Ajuste para celular */
+@media (max-width: 600px) {
+  .offer-picks {
+    grid-template-columns: 1fr;
+  }
+
+  .offer-pick img {
+    height: 160px;
+  }
+}
