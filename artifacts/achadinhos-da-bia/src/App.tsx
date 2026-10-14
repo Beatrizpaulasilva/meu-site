@@ -306,6 +306,12 @@ function Home() {
             </a>
           ))}
         </nav>
+
+<a className="header-search" href="#catalogo">
+  <Search size={18} />
+  <span>Buscar achadinhos...</span>
+</a>
+
         <a className="header-discover" href="#catalogo" onClick={() => selectCategory('Todas')}>
           Explorar <ArrowDownRight size={16} />
         </a>
