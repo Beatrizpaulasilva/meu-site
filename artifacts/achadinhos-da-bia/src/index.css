@@ -614,3 +614,29 @@ button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+
+/* Novo banner rosa - Achadinhos da Bia */
+.hero-banner {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.hero-banner-link {
+  display: block;
+  width: 100%;
+}
+
+.hero-banner-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .hero-banner-image {
+    width: 100%;
+    height: auto;
+  }
+}
