@@ -177,6 +177,15 @@ price: "R$ 161,00",
     url: "https://meli.la/1LStnhx",
     colors: ["Transparente"],
   },
+{
+  id: 'lixeira-magica',
+  name: 'Lixeira Mágica Antiodor',
+  price: 'R$ 132,43',
+  oldPrice: 'R$ 139,40',
+  discount: '35% OFF no Pix com cupom',
+  image: '/product-images/lixeira-magica.jpg',
+  link: 'https://meli.la/1Q4frv9',
+},
 ];
 const categories = [
   { title: 'Cozinha', id: 'cozinha', note: 'Pequenos detalhes, grandes momentos', icon: CookingPot, filter: 'Cozinha' },
